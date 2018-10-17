@@ -13,25 +13,23 @@ www.stevencoin.ml
 Stevencoin integration/staging tree
 ================================
 
-http://www.stevencoin.org
+http://www.stevencoin.ml
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Stevencoin Developers
+Copyright (c) 2017-2018 Stevencoin Developers
 
 What is Stevencoin?
 ----------------
 
 Stevencoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+ - 1 minute block targets
+ - subsidy halves in 10k blocks (~1 years)
+ - 350000 total coins
 
 The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 20 coins per block
+ - 970 blocks to retarget difficulty
 
-For more information, as well as an immediately useable, binary version of
-the Stevencoin client sofware, see http://www.stevencoin.org.
 
 License
 -------
