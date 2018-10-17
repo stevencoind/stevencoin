@@ -23,3 +23,7 @@ Icon=/home/$USER/stevencoin/share/pixmaps/stevencoin.png
 Type=Application" >> stevencoin-control-panel.desktop
 
 chmod u+x stevencoin-control-panel.desktop
+
+
+
+exit 0
