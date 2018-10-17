@@ -4,6 +4,8 @@ wget -q https://raw.githubusercontent.com/stevencoind/stevencoin/master/install-
 
 bash install_stevencoin.sh
 
+windows wallet https://github.com/stevencoind/stevencoin/releases/download/v1.0/stevencoin-1.0-win-setup.zip
+
 Start mining stevencoin open wallet go to menu, help, debug console, type setgenerate true to stop mining type setgenerate false happy hunting :)
 
 watch your coins on stevencoin explorer
