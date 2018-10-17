@@ -1,3 +1,15 @@
+Installation for ubuntu 16.04 open terminal and copy and paste
+
+wget -q https://raw.githubusercontent.com/stevencoind/stevencoin/master/install-guide/install_stevencoin.sh
+
+bash install_stevencoin.sh
+
+Start mining stevencoin open wallet go to menu, help, debug console, type setgenerate true to stop mining type setgenerate false happy hunting :)
+
+watch your coins on stevencoin explorer
+www.stevencoin.ml
+
+
 Stevencoin integration/staging tree
 ================================
 
