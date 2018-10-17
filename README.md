@@ -12,17 +12,8 @@ watch your coins on stevencoin explorer
 www.stevencoin.ml
 
 
-Stevencoin integration/staging tree
-================================
-
-http://www.stevencoin.ml
-
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2017-2018 Stevencoin Developers
-
 What is Stevencoin?
-----------------
-
+================================
 Stevencoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 1 minute block targets
  - subsidy halves in 10k blocks (~1 years)
@@ -38,6 +29,9 @@ License
 
 Stevencoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
+
+Copyright (c) 2009-2014 Bitcoin Developers
+Copyright (c) 2017-2018 Stevencoin Developers
 
 Development process
 -------------------
