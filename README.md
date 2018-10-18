@@ -9,7 +9,7 @@ windows wallet https://github.com/stevencoind/stevencoin/releases/download/v1.0/
 Start mining stevencoin open wallet go to menu, help, debug console, type setgenerate true to stop mining type setgenerate false happy hunting :)
 
 watch your coins on stevencoin explorer
-www.stevencoin.ml
+www.stevencoin.ga
 
 
 What is Stevencoin?
