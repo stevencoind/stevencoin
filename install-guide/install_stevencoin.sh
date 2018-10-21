@@ -7,7 +7,6 @@ mkdir .stevencoin && cd .stevencoin && echo 'server=1
 daemon=1
 rpcuser=user
 rpcpassword=Ecc7022b3D87a77E128081dbA62b1550Aa48
-addnode=45.32.238.28
 ' > stevencoin.conf && cd ..
 
 git clone https://github.com/stevencoind/stevencoin.git && sudo chmod 755 stevencoin && cd ./stevencoin/src/ && make -f makefile.unix && cd .. && qmake && make && sudo chmod +x ./stevencoin-qt && ./stevencoin-qt && cd ..
