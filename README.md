@@ -13,6 +13,8 @@ http://explorer.stevencoin.eu
 
 For more information,see http://stevencoin.eu
 
+community https://discord.gg/7GZpgy
+
 What is Stevencoin?
 ================================
 Stevencoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
