@@ -5,9 +5,10 @@ sudo apt-get install git -y && sudo apt-get install build-essential libtool auto
 
 mkdir .stevencoin && cd .stevencoin && echo 'server=1
 daemon=1
+listen=1
 rpcuser=user
 rpcpassword=Ecc7022b3D87a77E128081dbA62b1550Aa48
-' > stevencoin.conf && cd ..
+rpcallowip=127.0.0.1' > stevencoin.conf && cd ..
 
 git clone https://github.com/stevencoind/stevencoin.git && sudo chmod 755 stevencoin && cd ./stevencoin/src/ && make -f makefile.unix && cd .. && qmake && make && sudo chmod +x ./stevencoin-qt && ./stevencoin-qt && cd ..
 
