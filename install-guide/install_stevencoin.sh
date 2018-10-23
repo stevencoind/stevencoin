@@ -24,7 +24,7 @@ echo "[Desktop Entry]
 Type=Application
 Categories=Office
 Encoding=UTF-8
-Name=sander
+Name=Stevencoin
 Comment=
 Exec=/home/$USER/stevencoin/stevencoin-qt
 Icon=/home/$USER/stevencoin/share/pixmaps/stevencoin.png
