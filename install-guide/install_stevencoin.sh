@@ -31,6 +31,7 @@ Icon=/home/$USER/stevencoin/share/pixmaps/stevencoin.png
 Terminal=false" >> /home/$USER/Desktop/stevencoin-control-panel.desktop
 
 sudo chmod u+x /home/$USER/Desktop/stevencoin-control-panel.desktop
+sudo chmod +x /home/$USER/Desktop/stevencoin-control-panel.desktop
 
 sudo cp /home/$USER/Desktop/stevencoin-control-panel.desktop /usr/share/applications
 
