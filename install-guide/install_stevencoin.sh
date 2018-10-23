@@ -16,8 +16,8 @@ rpcallowip=127.0.0.1' > /home/$USER/.stevencoin/stevencoin.conf
 git clone https://github.com/stevencoind/stevencoin.git /home/$USER/stevencoin
 
 sudo chmod 755 /home/$USER/stevencoin
-cd /home/hemlig/stevencoin/src/ && make -f makefile.unix && cd /home/hemlig/stevencoin/ && qmake && make 
-sudo chmod +x /home/hemlig/stevencoin/stevencoin-qt
+cd /home/$USER/stevencoin/src/ && make -f makefile.unix && cd /home/$USER/stevencoin/ && qmake && make 
+sudo chmod +x /home/$USER/stevencoin/stevencoin-qt
 
 
 echo "[Desktop Entry]
@@ -30,11 +30,11 @@ Exec=/home/$USER/stevencoin/stevencoin-qt
 Icon=/home/$USER/stevencoin/share/pixmaps/stevencoin.png
 Terminal=false" >> /home/$USER/Desktop/stevencoin-control-panel.desktop
 
-sudo chmod u+x /home/$USER/stevencoin-control-panel.desktop
+sudo chmod u+x /home/$USER/Desktop/stevencoin-control-panel.desktop
 
-sudo cp /home/$USER/stevencoin-control-panel.desktop /usr/share/applications
+sudo cp /home/$USER/Desktop/stevencoin-control-panel.desktop /usr/share/applications
 
-cd /home/hemlig/stevencoin/ && ./stevencoin-qt
+cd /home/$USER/stevencoin/ && ./stevencoin-qt
 
 
 
