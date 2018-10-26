@@ -9,8 +9,8 @@ mkdir /home/$USER/.stevencoin
 echo 'server=1
 daemon=1
 listen=1
-rpcuser=user
-rpcpassword=Ecc7022b3D87a77E128081dbA62b1550Aa48
+'rpcuser=$(tr -cd '[:alnum:]' < /dev/urandom | fold -w10 | head -n1)'
+'rpcpassword=$(tr -cd '[:alnum:]' < /dev/urandom | fold -w22 | head -n1)'
 rpcallowip=127.0.0.1' > /home/$USER/.stevencoin/stevencoin.conf
 
 git clone https://github.com/stevencoind/stevencoin.git /home/$USER/stevencoin
